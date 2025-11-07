@@ -1,0 +1,1862 @@
+fileFormatVersion: 2
+guid: f13232eae150980409a97e9e1ba7f0d6
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-Multimaterial-22294508-043 Slot #2
+    second: {fileID: 2100000, guid: a7b23930bf00dc643bcab37ebede56c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-Standardmaterial-22294508-001
+    second: {fileID: 2100000, guid: b3a1e3c1903160a42a05784060715193, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-Standardmaterial-22294508-002
+    second: {fileID: 2100000, guid: e107291c0b52ed94facb4a1763502b19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRay2SidedMtl-22294508-441
+    second: {fileID: 2100000, guid: ed157e62b658133469aa4d2fa4c150c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayLightMtl-22294508-444
+    second: {fileID: 2100000, guid: 921283cf52e1bbd49963a1da69d120a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-065
+    second: {fileID: 2100000, guid: eb27251ac3122da488b353398b6a4b2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-067
+    second: {fileID: 2100000, guid: c923ccf97f3135f4985b0db6ca70351a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-068
+    second: {fileID: 2100000, guid: fd21624e1e0664d4e91b97e97a5084e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-069
+    second: {fileID: 2100000, guid: 850e4b5b26e645645b2c558adc71ae5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-070
+    second: {fileID: 2100000, guid: 8d439d3ffe1b97a43beb0f2f1d73c741, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-071
+    second: {fileID: 2100000, guid: 286e3b0388b68a745af0ea840858e66e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-073
+    second: {fileID: 2100000, guid: 952bf70a6d0694246ab7dea0be5c58cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-074
+    second: {fileID: 2100000, guid: 3232e7e0ae9c77f48bd3915658fde1cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-075
+    second: {fileID: 2100000, guid: 1516e980f1f249649808a8d664edb72a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-076
+    second: {fileID: 2100000, guid: 0102322a9b8181f45a0a5d5cc08a90b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-077
+    second: {fileID: 2100000, guid: c7ddd79b152501249a1168774c2ce21f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-081
+    second: {fileID: 2100000, guid: 18c2e37cf71f5cf48892583448bb1fa4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-082
+    second: {fileID: 2100000, guid: 1b90eec56a7747e40b466c45e99550a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-083
+    second: {fileID: 2100000, guid: 854720350c8fef04a97f909cb076de05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-084
+    second: {fileID: 2100000, guid: 42588dc92af7f8c4e97413597999a3f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-089
+    second: {fileID: 2100000, guid: d830ba6eac8d3e24eaa8055ba3bb4723, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-090
+    second: {fileID: 2100000, guid: 79107d4c3a2abb64ab48fd5cbef3163b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-091
+    second: {fileID: 2100000, guid: 54d8e2a624a3f264fa775ed1788aeebe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-092
+    second: {fileID: 2100000, guid: ff8079199a77bae448ad02ec0ff7d8c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-093
+    second: {fileID: 2100000, guid: 51f8e7faf285c4c459d4abbf9501d02e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-094
+    second: {fileID: 2100000, guid: 9502519d4f06a7147a44f25825279bf6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-095
+    second: {fileID: 2100000, guid: ebfb520c79a25cb459537f23e40cb85c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-096
+    second: {fileID: 2100000, guid: 59152f118d3c70c478e49ec0eab21c26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-097
+    second: {fileID: 2100000, guid: 8d101f14894bdd94d9a9f5f8a9c521f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-098
+    second: {fileID: 2100000, guid: 5e6f538d95c9d894e81c5c4f45f87299, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-099
+    second: {fileID: 2100000, guid: 959a0f32cea41fc49ae595c95031a6b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-100
+    second: {fileID: 2100000, guid: f30aeb609f655a34a993465203d6ee36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-101
+    second: {fileID: 2100000, guid: 61ae0c27b3e8b9442882f911178ce270, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-102
+    second: {fileID: 2100000, guid: b4078caab85fbaa439be394ced9680a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-103
+    second: {fileID: 2100000, guid: 0c3027662ffc1f044885a1ebf8ae2dc4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-104
+    second: {fileID: 2100000, guid: 956e00e1efba9d34b886a8248fe259a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-105
+    second: {fileID: 2100000, guid: 5b7cebbdab4eaa949bb6c9fac989fef0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-106
+    second: {fileID: 2100000, guid: 7e299c9a883343d4491b5cfcc99645a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-107
+    second: {fileID: 2100000, guid: 7f749231e88d18f4d8770bc2885cc939, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-108
+    second: {fileID: 2100000, guid: eb727215bcc646d4caed8251263e4381, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-109
+    second: {fileID: 2100000, guid: 33ec92f1a40c7c04591e2a39c5237557, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-110
+    second: {fileID: 2100000, guid: 47b778a253dac52448a9d2cc3cb4940c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-111
+    second: {fileID: 2100000, guid: b299800e1d0f55c46adeda96f50676ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-112
+    second: {fileID: 2100000, guid: 760aeae72c8617e4c8bddd16a875538c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-113
+    second: {fileID: 2100000, guid: 8d851bab3e4d822409e6b1013e3da654, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-114
+    second: {fileID: 2100000, guid: dd5ec3593a490684c8143af57c19aca6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-115
+    second: {fileID: 2100000, guid: 7a5a5acc56c956b428221307d0298476, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-116
+    second: {fileID: 2100000, guid: 023b5290efbdc07449399319fa4468f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-117
+    second: {fileID: 2100000, guid: 6322dca64fecb214ab8b94a3a3aa97ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-118
+    second: {fileID: 2100000, guid: 2b457d30d480b634c8ae15a6e0c1f618, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-119
+    second: {fileID: 2100000, guid: 88aed546f9408a54aa5fca1238149c98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-120
+    second: {fileID: 2100000, guid: fc5f28d37a012774389d22b85b87c1dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-122
+    second: {fileID: 2100000, guid: 484bcdb20f86fa24eb6e454b09918c07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-124
+    second: {fileID: 2100000, guid: 4c37ec7e0c82ad14fb38f93b3eb623d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-126
+    second: {fileID: 2100000, guid: 892722ca509cb9d4980abc1f62eb2ce0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-127
+    second: {fileID: 2100000, guid: 3d63f85fc1a65d640a539b181144781f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-128
+    second: {fileID: 2100000, guid: 7cf550f3692585c4dbc2ca611bd080e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-129
+    second: {fileID: 2100000, guid: 4bbbb111ce6f47348b1842897dea27ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-130
+    second: {fileID: 2100000, guid: f4650b43dd2b4a7478928c5f17dd12f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-131
+    second: {fileID: 2100000, guid: 4b46f37caacdaba46af3ae318e89c479, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-132
+    second: {fileID: 2100000, guid: 48217c1e808189d40b4b463639ecb347, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-133
+    second: {fileID: 2100000, guid: 07ff3060aa870144c826c8f960c3e060, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-134
+    second: {fileID: 2100000, guid: 2d981c1c6f4e1a743995e6b008137b6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-135
+    second: {fileID: 2100000, guid: f8485209b0db3f2438ac3a5f851f5484, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-136
+    second: {fileID: 2100000, guid: 1568953da153cff469768cfb0d34d619, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-137
+    second: {fileID: 2100000, guid: 655cb27cce65b2445b9d39865499a683, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-138
+    second: {fileID: 2100000, guid: 731f94945b7286040abf2c61d6d57f19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-139
+    second: {fileID: 2100000, guid: b68d6c3e174a75e43823b23e553e802c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-140
+    second: {fileID: 2100000, guid: 5a9d0ca3a63268b43bcb0a2479c1f69b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-141
+    second: {fileID: 2100000, guid: 91c15f12ebcba8c4daf16fb0b9d96dd4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-142
+    second: {fileID: 2100000, guid: 2d99fcb5559dc3142b2b32ea7974d4fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-143
+    second: {fileID: 2100000, guid: db8403cda7d193349849fbd9b146d4a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-144
+    second: {fileID: 2100000, guid: ec10565308550ce47895b6ba6aef0dec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-145
+    second: {fileID: 2100000, guid: 8266b8d5f55e41e4daf3e38a5eed7c30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-146
+    second: {fileID: 2100000, guid: e2815dc3c91d4a540a1516684b2e6e1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-147
+    second: {fileID: 2100000, guid: 11c9345535f9a1a4b899cc343cff0208, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-148
+    second: {fileID: 2100000, guid: 635062e46fb775b468f414a6b6385f57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-149
+    second: {fileID: 2100000, guid: 96da531764f364348b39804bb6b605cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-150
+    second: {fileID: 2100000, guid: 09d16337d532c1e4d851d451823681e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-151
+    second: {fileID: 2100000, guid: 25b6ea6da61bc75478f8c49d64c7c3d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-152
+    second: {fileID: 2100000, guid: 180172f1526007c43926e1327e7e6efd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-153
+    second: {fileID: 2100000, guid: f55f9530ea496564cb94d12b247177ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-154
+    second: {fileID: 2100000, guid: fcc5f6c054e64c54a82903f31a34a747, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-155
+    second: {fileID: 2100000, guid: bae14284381f1f94886ceebf998f6050, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-156
+    second: {fileID: 2100000, guid: d236173e5687c2345bc851646bc96717, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-157
+    second: {fileID: 2100000, guid: e6a88d1ad369c4c4c971ee4e72fe9ea5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-158
+    second: {fileID: 2100000, guid: d552f7f0a7976fa4ebbb37d67c5a3ee4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-159
+    second: {fileID: 2100000, guid: b65c87f17ffedbd468cbe9ddc0301385, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-160
+    second: {fileID: 2100000, guid: a3eeae9d03089de46a8bfd262cf4eea5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-161
+    second: {fileID: 2100000, guid: cb619b63d96f4c54fb4cacc844b02c73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-162
+    second: {fileID: 2100000, guid: a288a486417b6a44389708e28af0fa60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-163
+    second: {fileID: 2100000, guid: a46051dc6abd30443851b8a6a822ed29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-164
+    second: {fileID: 2100000, guid: 9346f8b1c37436744a4cfe09d6b8d09b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-165
+    second: {fileID: 2100000, guid: b1b688ceb5412464ba8aa7d062519851, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-166
+    second: {fileID: 2100000, guid: f550ccba0250ad149a77ebcfa19146f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-167
+    second: {fileID: 2100000, guid: 33c4a5f3c113747449e179aa652dfb4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-168
+    second: {fileID: 2100000, guid: edc03a4bc789a804094aabec7a594f3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-169
+    second: {fileID: 2100000, guid: bac9e37437659b44bbb05518d3564275, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-170
+    second: {fileID: 2100000, guid: 3ae10f7bce75d024aa22c81cb0a66867, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-171
+    second: {fileID: 2100000, guid: 321f92501f8550c45b0eb9ba8403a603, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-173
+    second: {fileID: 2100000, guid: 9a4d80567f72009459ee970682fffe34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-174
+    second: {fileID: 2100000, guid: e2348b0187ead7e41b08c92e569a3ce6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-175
+    second: {fileID: 2100000, guid: 5d89d1680b9889740aacc821e688849c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-176
+    second: {fileID: 2100000, guid: 7c18fd881b70ce847ad45e4769387ba7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-177
+    second: {fileID: 2100000, guid: 9c02449e35c6fdc4f936bc7f0d8c19e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-178
+    second: {fileID: 2100000, guid: c521d62e0e187694d8ef264c0da73c63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-179
+    second: {fileID: 2100000, guid: 91409154588dcf948bddcde5c368f911, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-180
+    second: {fileID: 2100000, guid: 47eff691501861e4e90db2b0df09b84a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-181
+    second: {fileID: 2100000, guid: a6722e5631ee8ea4f93030179f7f5225, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-183
+    second: {fileID: 2100000, guid: dc6fcbc9d5f001643b55d4a994c62730, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-184
+    second: {fileID: 2100000, guid: ab2d69b5c1bbae14895c51cc9b46b641, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-185
+    second: {fileID: 2100000, guid: 9105066a9feeff045b542cd1fc4a6300, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-186
+    second: {fileID: 2100000, guid: 22093e97fb611a841b8b2bdb31270945, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-187
+    second: {fileID: 2100000, guid: 157a5ae5c429ea3428afb6dab41ba412, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-188
+    second: {fileID: 2100000, guid: ba22135c7921bf04d9ca7e6e1b8c2f15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-189
+    second: {fileID: 2100000, guid: 59a5d54bcf8f76b44bf6854c6a3aa92a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-190
+    second: {fileID: 2100000, guid: d7edfc1825ddf0e47ad9f8bbe6c61c7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-191
+    second: {fileID: 2100000, guid: 102c36804aed05545a70b4d260e24b58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-192
+    second: {fileID: 2100000, guid: 08a51c4c542ded349b559e8a5e7faa39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-193
+    second: {fileID: 2100000, guid: a7f9bf2e2f4cbd740be38228ce15b75c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-194
+    second: {fileID: 2100000, guid: d05bae82d90ae1c45a679408d18b1b80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-195
+    second: {fileID: 2100000, guid: bf91677a5e681034f81b6f307606d3f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-196
+    second: {fileID: 2100000, guid: b3f75c585c2bf2a40ab59ed1e6600975, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-197
+    second: {fileID: 2100000, guid: a456a95cca7e79c45aa8185b370b33bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-198
+    second: {fileID: 2100000, guid: 91c7445b46eebbd45ade1e64fd7ede82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-199
+    second: {fileID: 2100000, guid: 9b5305f35db719d4492acca9a0234428, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-200
+    second: {fileID: 2100000, guid: b3dc3c78c15838b4a8cf80fc4082895e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-201
+    second: {fileID: 2100000, guid: 81cabf0eee19d6f46a0e96b78d7ae855, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-202
+    second: {fileID: 2100000, guid: e63f23b0bfa5a384ba7b173cbebed46b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-203
+    second: {fileID: 2100000, guid: 45cd4acab798987409782fff5950ca30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-204
+    second: {fileID: 2100000, guid: a1c5902af3938f545a83d1a06dc4de8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-205
+    second: {fileID: 2100000, guid: 4eadff5e3e35707439d374df83ecf501, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-206
+    second: {fileID: 2100000, guid: f5289940f6f590d4cb291b913903d8b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-207
+    second: {fileID: 2100000, guid: 183c681e77c8d1f488024f951aa40a7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-208
+    second: {fileID: 2100000, guid: 1e9bd7ec2269f0845ba38e0d292e5043, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-209
+    second: {fileID: 2100000, guid: 1c98a3c8475dc2c43afdd59b0a82c26c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-210
+    second: {fileID: 2100000, guid: 0f32dd1ee71f2b04caa5d7754dbabeaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-211
+    second: {fileID: 2100000, guid: 07be75f10ed9fa54dae001432e7be931, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-212
+    second: {fileID: 2100000, guid: 5b5118666e1ab77448d1a9f1edc85a2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-213
+    second: {fileID: 2100000, guid: a740c8480fd69a346b48c6ca70411b28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-214
+    second: {fileID: 2100000, guid: 7d3d65aa57db8424295d575e1d7ed27c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-215
+    second: {fileID: 2100000, guid: 6efb0930d9f97a840be92d6974aa7158, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-216
+    second: {fileID: 2100000, guid: 3e49a1222260c6247ab19d3eb838222f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-217
+    second: {fileID: 2100000, guid: 5151d5aa1f6162e439e5f9957b330a9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-218
+    second: {fileID: 2100000, guid: c12e5d28d3d53e34dac5fb9df61b6920, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-219
+    second: {fileID: 2100000, guid: ddfc10bc23548f8469315bb0973b9788, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-220
+    second: {fileID: 2100000, guid: f57955ab7869658449cf783b2b643311, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-221
+    second: {fileID: 2100000, guid: 2f33a71d2e6b4f4468313106827ea071, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-222
+    second: {fileID: 2100000, guid: e7993fffd59877c4db2ad0e2ba34101b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-223
+    second: {fileID: 2100000, guid: f7de53fbe49c6dd4abf9aeb30c311114, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-224
+    second: {fileID: 2100000, guid: 69c8687a15445974583c606a6a90cb11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-225
+    second: {fileID: 2100000, guid: 1049a57a5e0993a46b56d14d02605c0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-226
+    second: {fileID: 2100000, guid: 240ba02adc6f43946a514cdbba558478, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-227
+    second: {fileID: 2100000, guid: 8f64d4e9c9f78e2499b803a490009eaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-228
+    second: {fileID: 2100000, guid: 4ba025491ac3c864c93f766303c34e88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-229
+    second: {fileID: 2100000, guid: 35181ffb642097b4680f02a6d313cc73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-230
+    second: {fileID: 2100000, guid: 99c8e45545d053748a5dbd9141e3ac3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-231
+    second: {fileID: 2100000, guid: 860b17aad648f294388dedf0e05fb642, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-232
+    second: {fileID: 2100000, guid: b05b37129674e624b85642cc5ced2718, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-233
+    second: {fileID: 2100000, guid: 5bc837fd3b14b804ca33105035e52722, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-234
+    second: {fileID: 2100000, guid: bf02db7814216604fb12e02fb7368eca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-235
+    second: {fileID: 2100000, guid: ea2b97436c17430479e899668f4bdd10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-236
+    second: {fileID: 2100000, guid: 42e333e0e80f6084a9f3ea6996c31312, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-237
+    second: {fileID: 2100000, guid: 1881df6acc0777b4c9083e16d2a7be6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-238
+    second: {fileID: 2100000, guid: 0b71cf02f07fbca40a9179beb701a041, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-239
+    second: {fileID: 2100000, guid: 28a4d974ff52c074e8a3eb5285faa552, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-240
+    second: {fileID: 2100000, guid: 37fa7726bf01b824fa0573bbffe2107b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-241
+    second: {fileID: 2100000, guid: 9739dd847694ebe4cb8698fa737ddd3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-242
+    second: {fileID: 2100000, guid: 193cbac1bf256a34cbca4af0bb28f22d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-243
+    second: {fileID: 2100000, guid: 9887b845aa2761c44af0f1b10e559b76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-244
+    second: {fileID: 2100000, guid: 4d4263f0b7427b64ab4b43a321dbf846, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-245
+    second: {fileID: 2100000, guid: 3922ac72d0762c44683516ebd03d9269, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-246
+    second: {fileID: 2100000, guid: 77f65ea93c083914c933395dbeade653, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-247
+    second: {fileID: 2100000, guid: ede76c068c0c26d42b2dded5ef4bcee2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-248
+    second: {fileID: 2100000, guid: 8cdd3f042f4c12147af2ec7501ab2997, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-249
+    second: {fileID: 2100000, guid: 7f0ec0c0d3166124c82a33665cfcca81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-250
+    second: {fileID: 2100000, guid: 683ad43a5eff6564eb4e2d9512ce8bfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-251
+    second: {fileID: 2100000, guid: adb5355260c44fa44aa1c39d31aaf98e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-252
+    second: {fileID: 2100000, guid: 45e593c1f7a1302419934c6f7f33237d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-253
+    second: {fileID: 2100000, guid: 3cbe4ed9d094a4e4db3a44c7e3e7c65a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-254
+    second: {fileID: 2100000, guid: 0ada308ef0f82604aa2137c0c7265dd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-255
+    second: {fileID: 2100000, guid: a03072525c2d43346982967df8c41c99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-256
+    second: {fileID: 2100000, guid: 1c0645f4661afe5429a4c5ba4d0b30ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-257
+    second: {fileID: 2100000, guid: d21737e01e064d247ba23f1c2bfe5b5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-258
+    second: {fileID: 2100000, guid: 9d549f9720ecdbb4f9de91b156230200, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-259
+    second: {fileID: 2100000, guid: 6d11f815e2611994a82f800392cfa183, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-260
+    second: {fileID: 2100000, guid: de5c3f926a931b8468804ff229c460a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-261
+    second: {fileID: 2100000, guid: b182ab74e248d32449e70cfcdf1ddcc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-262
+    second: {fileID: 2100000, guid: ac71c8234db9f534b85bb6170f044aef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-263
+    second: {fileID: 2100000, guid: b92fb0a2be9ee6048b4df5e45aaa5d57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-264
+    second: {fileID: 2100000, guid: 4dad128385c0e5547aa6accce4296b11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-265
+    second: {fileID: 2100000, guid: ad17ab58f5ab8ef4a8acb1bbe5a2067c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-266
+    second: {fileID: 2100000, guid: 91fbfb8514cacea43a1b4cdb60416e57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-267
+    second: {fileID: 2100000, guid: 2535f8a38feaa074f933ed5da17a3f6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-268
+    second: {fileID: 2100000, guid: 5ea5c5ec5c0dd114d861ad30daeb3135, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-269
+    second: {fileID: 2100000, guid: 43f871152d52f844a8f41432997cbafc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-270
+    second: {fileID: 2100000, guid: d8ac4e7aaaa3ffc4186a9764c95dc7c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-271
+    second: {fileID: 2100000, guid: a1c6dae64dcc5f646b81e47d9476c39c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-272
+    second: {fileID: 2100000, guid: b1d1c823b7d666645bd1148883bcbd9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-273
+    second: {fileID: 2100000, guid: b604ecfb972605f4e82043a82fef78ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-274
+    second: {fileID: 2100000, guid: 20e87ca08e5c9894e9c8d7feb5dc3252, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-275
+    second: {fileID: 2100000, guid: 118b57d656b5f1543bfd58bfcdd5716d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-276
+    second: {fileID: 2100000, guid: 8ea121291baa37e44b07ead3703cb96d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-277
+    second: {fileID: 2100000, guid: a20651a0884fc914685399e352d4ca1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-278
+    second: {fileID: 2100000, guid: db366a6ae62365645b6bc746b6277310, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-279
+    second: {fileID: 2100000, guid: c448a6973d5e8d14bafd8a2e53a1ad6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-280
+    second: {fileID: 2100000, guid: 7a4530f9fd68e3e4a9d972170e2f2228, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-281
+    second: {fileID: 2100000, guid: 1f3981b091d8d7f4fafbadd0b1f65ce2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-282
+    second: {fileID: 2100000, guid: c94d5dbbd9f089b499860f229932b6be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-283
+    second: {fileID: 2100000, guid: 6bbda9143989bc04eb9f865f862d0999, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-284
+    second: {fileID: 2100000, guid: 2324b02a4a9bbf847b72c185e56cdc23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-285
+    second: {fileID: 2100000, guid: ee935a2004b255745b6b8ad3851d67da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-286
+    second: {fileID: 2100000, guid: 4a38def6a52ff6247960fb1dc47f2a92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-287
+    second: {fileID: 2100000, guid: 512a527db7df28641bde98d174f59d54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-288
+    second: {fileID: 2100000, guid: 877801028f8529146869a56aa2ab6d15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-289
+    second: {fileID: 2100000, guid: 5afd6fa9f9eef8f4d94d113331e0fc51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-290
+    second: {fileID: 2100000, guid: 0fa6ad5650855114abe109887ad0be37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-292
+    second: {fileID: 2100000, guid: 110c36f0fd0d6d34aac795bf5cb4044c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-293
+    second: {fileID: 2100000, guid: 529fe017bb28e75429e0af67c2138eaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-294
+    second: {fileID: 2100000, guid: 90d8224af4a9c0d41a6897154702fa52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-295
+    second: {fileID: 2100000, guid: 0f45afdae583d674f8ff9543d5ce7212, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-296
+    second: {fileID: 2100000, guid: e1fd285c6cd2bf6408a25c9dab5bd3a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-297
+    second: {fileID: 2100000, guid: 98646eb65e5a13e4ebefd9b859ac715d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-298
+    second: {fileID: 2100000, guid: 548f14cc22159b046a0bc93613fd64ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-299
+    second: {fileID: 2100000, guid: db3289f304864fd42b9291523f82d512, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-300
+    second: {fileID: 2100000, guid: 51de7a30f0bcc0c4ab32f87659714d5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-301
+    second: {fileID: 2100000, guid: 87e22c99b65fa934cbe9618ffce2b5a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-302
+    second: {fileID: 2100000, guid: a4ceb355407152449a4fbadfc12cd192, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-303
+    second: {fileID: 2100000, guid: 87c99fd11dc11d04eaf494518dd85731, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-304
+    second: {fileID: 2100000, guid: 7f2467a8beb84084f823e498a0e7aa79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-305
+    second: {fileID: 2100000, guid: b76f223732ec3dd4185e09cc63b25c30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-306
+    second: {fileID: 2100000, guid: 10fb7ce2917e9bc41993ec99278649c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-307
+    second: {fileID: 2100000, guid: a288fb0f1cd25604c94a8bcc0d81267c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-308
+    second: {fileID: 2100000, guid: 7a7a4bfaaf50827488d7d903f331f93e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-309
+    second: {fileID: 2100000, guid: b955b08e4dc4ab541b1b2963798b82bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-310
+    second: {fileID: 2100000, guid: 48606eea45c9f864abcc2f4b2cd83cc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-311
+    second: {fileID: 2100000, guid: ba06c92ba66d3864e9079c939e3e1373, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-312
+    second: {fileID: 2100000, guid: 9d73a26fa513dde499fa752531b6bcf4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-313
+    second: {fileID: 2100000, guid: c2c292018766dae4caa23caf46edddf0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-314
+    second: {fileID: 2100000, guid: 4169ba209e7b943468436575525c084e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-315
+    second: {fileID: 2100000, guid: e700adaf934d28b46b2059217bbbee0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-316
+    second: {fileID: 2100000, guid: 56ecd66191eae5c4ab99aa545eb78276, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-317
+    second: {fileID: 2100000, guid: ec8cd831068548843bd98bef28d34eef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-318
+    second: {fileID: 2100000, guid: 870d0af81e55e454eb93ca982e232dd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-319
+    second: {fileID: 2100000, guid: b5951462f5e9986419e1111044522f7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-320
+    second: {fileID: 2100000, guid: 9c75c3e5a04c64a41ac7bd1f344fd1bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-321
+    second: {fileID: 2100000, guid: ae2ab9bf744c2464aa7ade68531acf17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-322
+    second: {fileID: 2100000, guid: a50cfa292d31cd04895ffce76729b4e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-323
+    second: {fileID: 2100000, guid: e6133a847eca3d94288f042136c14ea4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-324
+    second: {fileID: 2100000, guid: 57ac700035ba4794aa244a49e08de57e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-325
+    second: {fileID: 2100000, guid: 78e6c3540354d0e43905970aca9acfac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-326
+    second: {fileID: 2100000, guid: da778764cf9123a42b77d1689c0913dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-327
+    second: {fileID: 2100000, guid: 18cbd3e6599eeca4fa3ad1449edf5dd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-329
+    second: {fileID: 2100000, guid: 80be1b14c7835b042901ee45152be77c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-330
+    second: {fileID: 2100000, guid: 73e93ab5eb3090a45b646755a8200316, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-331
+    second: {fileID: 2100000, guid: 467815911e02dc8429ca6659016a71bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-332
+    second: {fileID: 2100000, guid: 5e601b2613c9b0f41a4fdb1355bb18af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-333
+    second: {fileID: 2100000, guid: 49412deefbf79cc4fb0f592ee6cc086d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-334
+    second: {fileID: 2100000, guid: e7073616e31789540a08b7d52c73b728, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-335
+    second: {fileID: 2100000, guid: 437b02bc17a238842b695cdeba652109, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-336
+    second: {fileID: 2100000, guid: 91394da211528c844b02b9d264728368, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-337
+    second: {fileID: 2100000, guid: 07e9d86bc706c76499d7a3610b643138, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-339
+    second: {fileID: 2100000, guid: d13b6c64c1d1fb24fba79b95d2154336, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-340
+    second: {fileID: 2100000, guid: c0d82fa63ed2b3147a29bbe0874a4708, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-341
+    second: {fileID: 2100000, guid: 96b26f7b2342c074eb5d8c25fb6e5c54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-342
+    second: {fileID: 2100000, guid: 4ede65eb047866f4dae47ab744b0becf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-343
+    second: {fileID: 2100000, guid: 21ce0b2c644f6be4f814ee362bde782b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-344
+    second: {fileID: 2100000, guid: 9adc67721361ff345a22b6e3bf6026d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-345
+    second: {fileID: 2100000, guid: f2be441356dcb4446a5ef3a4c695e4b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-346
+    second: {fileID: 2100000, guid: 882b89d37582a934bbe0a3fbb4def9a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-347
+    second: {fileID: 2100000, guid: adf8f6ef49ff76b469349a26989315c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-348
+    second: {fileID: 2100000, guid: 78817f9d1b2092342827e696dcd04af9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-349
+    second: {fileID: 2100000, guid: 165c9b6d1c892404ba96f9ae255899c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-350
+    second: {fileID: 2100000, guid: f72a8ced1c40833438d570a4522ce80c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-351
+    second: {fileID: 2100000, guid: 902704b7b3639764b8c2a7fca52cc56d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-352
+    second: {fileID: 2100000, guid: 139e134438e12b447933f034ca6333da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-353
+    second: {fileID: 2100000, guid: 27c8d882787109e4ab7b53ea5f4d475a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-354
+    second: {fileID: 2100000, guid: 751f2efe5e793244a8424d0918101f47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-355
+    second: {fileID: 2100000, guid: 036c8d9e720095a449701e31999b4e55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-356
+    second: {fileID: 2100000, guid: 1170fb2af731bbe4ca15ac5b972ebda9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-357
+    second: {fileID: 2100000, guid: 014c861603d67ac4990d324232d70ee9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-358
+    second: {fileID: 2100000, guid: 79119f307f42c8a4c879bc6382d9ce39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-359
+    second: {fileID: 2100000, guid: 82c838f2400a5ed46b4f7026b79a1671, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-360
+    second: {fileID: 2100000, guid: 1f372920af30e864ea3c97ebc5577739, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-361
+    second: {fileID: 2100000, guid: 7f18dd618d2f99241beb4b422bbc8cbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-362
+    second: {fileID: 2100000, guid: 0cba80e012ac8d1418c766fd3fdb0fc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-363
+    second: {fileID: 2100000, guid: 76f0a64379098b4448103f716376081e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-366
+    second: {fileID: 2100000, guid: 93fa9a7610561ea4785950ba2a3e4346, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-368
+    second: {fileID: 2100000, guid: f57a75c75e2af0e4fb4e579a38fbbdea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-370
+    second: {fileID: 2100000, guid: 68bc4688d24e8ff4eab789a0b10a5dd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-372
+    second: {fileID: 2100000, guid: 81d76769c15b2794f8ad6ab164cb6300, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-373
+    second: {fileID: 2100000, guid: d6d0dc55ce09dd149b413e1d8fccc05a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-374
+    second: {fileID: 2100000, guid: afd200e3109212b4990bd97cd4d5531d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-375
+    second: {fileID: 2100000, guid: db73003da04588c4d9e66aba11200ffa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-376
+    second: {fileID: 2100000, guid: c965f26d1b3e99f449eeddb65cfabd86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-377
+    second: {fileID: 2100000, guid: 987563fdb5c07be41a1c8aeaf57746d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-379
+    second: {fileID: 2100000, guid: a11f5814dd089ad4eb000e3d9f223a38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-380
+    second: {fileID: 2100000, guid: 0182fd21ea025c9428c0d899b9dbb28d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-381
+    second: {fileID: 2100000, guid: 278c2f26b92546a4e9e73045f639989d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-382
+    second: {fileID: 2100000, guid: c3a9bd6b6883d684db46e0165bde63b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-384
+    second: {fileID: 2100000, guid: e499d65b56244fc439ee372422d0ed7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-385
+    second: {fileID: 2100000, guid: 81343dfcc19a4a441b59dfd7b67438de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-386
+    second: {fileID: 2100000, guid: 80bb2723e7d19b74c9146bf244a0dffa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-387
+    second: {fileID: 2100000, guid: 62f435092b4629d4484abb9775af4b19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-388
+    second: {fileID: 2100000, guid: b8289c93cdde1834bb1ae382bfcd5ede, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-389
+    second: {fileID: 2100000, guid: 8d8bb2bcc3426ea408f52457b6b45d2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-390
+    second: {fileID: 2100000, guid: 4a32388743dc1904798de4eda5c88f09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-391
+    second: {fileID: 2100000, guid: c62b0b811a2f98045ad69da738994e69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-392
+    second: {fileID: 2100000, guid: fc86ceed30c5bd84486131369252ad8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-393
+    second: {fileID: 2100000, guid: 223315d4fc22c334080e55132b8834b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-394
+    second: {fileID: 2100000, guid: 617ecf8a8be654748bbc0306ec81b7bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-395
+    second: {fileID: 2100000, guid: 25532da4aae294f41954c837e64f68c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-396
+    second: {fileID: 2100000, guid: b2df4865de3bc8f4cb22b41d980bad0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-397
+    second: {fileID: 2100000, guid: b0f39782a98591c4e957f693389988ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-398
+    second: {fileID: 2100000, guid: 3e599bf66eb802d4490c9a900042850f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-399
+    second: {fileID: 2100000, guid: 84f8e36d8619ae8409666fbd9a4b6845, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-400
+    second: {fileID: 2100000, guid: 8952bdbfb5f3ca646bdf84c65876786d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-401
+    second: {fileID: 2100000, guid: 5f46c130e36d82645aae7b70f776d113, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-402
+    second: {fileID: 2100000, guid: d3a63ad2218fdcb4c9e0e907136c0ace, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-403
+    second: {fileID: 2100000, guid: 7f5a1e3efd6fe8243a3acd006407dd9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-404
+    second: {fileID: 2100000, guid: 28e8b45006c67244a91de5d0dc13479f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-405
+    second: {fileID: 2100000, guid: 722b60dfb71ac844f8b1fa10ace7eaab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-406
+    second: {fileID: 2100000, guid: ef6094990c8db5e42be0c0bf61236616, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-407
+    second: {fileID: 2100000, guid: 0337767492d3b904aa04b1898a446cb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-408
+    second: {fileID: 2100000, guid: 9caafdb928f8acb40878af2b51cc0ce1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-409
+    second: {fileID: 2100000, guid: 1af803c0c8f16dd44b0783a6bbf438df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-410
+    second: {fileID: 2100000, guid: 81fdb410c40c77749acf52a2e10c9280, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-411
+    second: {fileID: 2100000, guid: dc0b7d7893bc56f47bbd21117dc3881c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-412
+    second: {fileID: 2100000, guid: 0b7f496e049414243ac4ea88fbcd0c85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-413
+    second: {fileID: 2100000, guid: 09d6f0024eb2cca439e9f0d4b0f8f131, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-414
+    second: {fileID: 2100000, guid: 0b5d2569db5253e479870a84cb7172ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-415
+    second: {fileID: 2100000, guid: 3eebbcdf979b9e24fa59120f63b8b92b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-416
+    second: {fileID: 2100000, guid: 5ba5e5e29f20f8f4597a5a670f9468b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-417
+    second: {fileID: 2100000, guid: f73cd5d97614b6041902cdce06fbd034, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-420
+    second: {fileID: 2100000, guid: d6edf6196ee2dfe459d976b0ca0206ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-421
+    second: {fileID: 2100000, guid: 8cc2ba90e4f510240b88bfd214b9b362, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-422
+    second: {fileID: 2100000, guid: 72a878fd3da014a43ba9d064b010ff4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-423
+    second: {fileID: 2100000, guid: 513256b18e7121544b428af7d419a2d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-424
+    second: {fileID: 2100000, guid: d444b53291fda5c4da36185b42ee2797, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-425
+    second: {fileID: 2100000, guid: 6afe0a43a3a616e4c85eacce7ca1e935, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-426
+    second: {fileID: 2100000, guid: 9efbd2e072845d3489318cef06129767, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-427
+    second: {fileID: 2100000, guid: 4aee076d19d173d429b2db3357615af7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-428
+    second: {fileID: 2100000, guid: 572c2b5f6c8d62a4fa20b027795152dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-429
+    second: {fileID: 2100000, guid: 8cb62e915164bcb4997432256b751c00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-431
+    second: {fileID: 2100000, guid: ba80b46bfd405b94a87c00ce56f71272, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-434
+    second: {fileID: 2100000, guid: 1b528b5c7f9dff04d826c24cff6efef0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-435
+    second: {fileID: 2100000, guid: 0f5debf594e27754e8a9ff5cb816832e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-436
+    second: {fileID: 2100000, guid: 251d92f5efdb83c40b63dc7d9f5bd89a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtl-22294508-437
+    second: {fileID: 2100000, guid: f00862444710c02448d167271cde5c4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtlWrapper-22294508-439
+    second: {fileID: 2100000, guid: b9e12ea7af99b5845bfdd4f77918b0be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3d66-VRayMtlWrapper-22294508-440
+    second: {fileID: 2100000, guid: 62753eddd6ea31f40a54db0409204722, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: be6fff6e751f4314c9ae99cea5381387, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
