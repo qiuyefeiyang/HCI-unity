@@ -11,17 +11,27 @@ public class PlayerController : MonoBehaviour
     [Header("动画设置")]
     public bool enableAnimation = true;
 
+    [Header("输入设置")]
+    public bool enableKeyboardInput = true;
+    public bool enableMobileInput = true;
+
     [Header("调试设置")]
-    public bool enableKeyboardTest = true;
     public bool fixModelDirection = false;
     public bool enableDebug = false;
 
     private Rigidbody rb;
     private Animator animator;
     private Vector3 moveDirection;
-    private Vector2 inputDirection = Vector2.zero;
+
+    // 输入系统
+    private Vector2 keyboardInput = Vector2.zero;
+    private Vector2 mobileInput = Vector2.zero;
     private Vector2 currentInput = Vector2.zero; // 当前实际输入（用于平滑）
+    private Vector2 finalInput = Vector2.zero;   // 最终输入（手机优先）
+
     private bool isMoving = false;
+    private bool mobileInteract = false;
+    private bool keyboardInteract = false;
 
     void Start()
     {
@@ -42,15 +52,20 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (!enableKeyboardTest) return;
+        // 处理键盘输入
+        if (enableKeyboardInput)
+        {
+            HandleKeyboardInput();
+        }
 
-        HandleKeyboardInput();
+        // 合并输入（手机输入优先）
+        CombineInputs();
 
         // 更新动画状态
         UpdateAnimation();
 
-        if (Input.GetKeyDown(KeyCode.Space))
-            Interact();
+        // 处理交互输入
+        HandleInteractInput();
     }
 
     void HandleKeyboardInput()
@@ -78,35 +93,80 @@ public class PlayerController : MonoBehaviour
         // 平滑输入过渡
         if (targetInput.magnitude > 0.1f)
         {
-            currentInput = Vector2.Lerp(currentInput, targetInput, acceleration * Time.deltaTime);
+            keyboardInput = Vector2.Lerp(keyboardInput, targetInput, acceleration * Time.deltaTime);
+        }
+        else
+        {
+            keyboardInput = Vector2.Lerp(keyboardInput, Vector2.zero, deceleration * Time.deltaTime);
+        }
+
+        // 键盘交互
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            keyboardInteract = true;
+        }
+    }
+
+    void CombineInputs()
+    {
+        // 手机输入优先于键盘输入
+        if (enableMobileInput && mobileInput.magnitude > 0.1f)
+        {
+            finalInput = mobileInput;
+            Debug.Log("手机正在输入");
+        }
+        else
+        {
+            finalInput = keyboardInput;
+        }
+
+        // 平滑最终输入
+        if (finalInput.magnitude > 0.1f)
+        {
+            currentInput = Vector2.Lerp(currentInput, finalInput, acceleration * Time.deltaTime);
         }
         else
         {
             currentInput = Vector2.Lerp(currentInput, Vector2.zero, deceleration * Time.deltaTime);
         }
 
-        SetMoveInput(currentInput);
+        if (enableDebug && finalInput.magnitude > 0)
+        {
+            Debug.Log($"最终输入: {finalInput}, 当前输入: {currentInput}, 手机输入: {mobileInput}, 键盘输入: {keyboardInput}");
+        }
+    }
+
+    void HandleInteractInput()
+    {
+        // 手机交互优先
+        if (mobileInteract)
+        {
+            Interact();
+            mobileInteract = false; // 重置
+        }
+        else if (keyboardInteract)
+        {
+            Interact();
+            keyboardInteract = false; // 重置
+        }
     }
 
     void UpdateAnimation()
     {
         if (!enableAnimation || animator == null) return;
 
-        // 检测是否在移动 - 使用输入方向和物理速度双重检测
+        // 检测是否在移动
         bool wasMoving = isMoving;
-        isMoving = inputDirection.magnitude > 0.1f && rb.velocity.magnitude > 0.1f;
+        isMoving = currentInput.magnitude > 0.1f;
 
         // 设置IsWalking参数
         animator.SetBool("isWalk", isMoving);
-
-        // 可选：设置移动速度参数，可用于控制动画播放速度
-        // animator.SetFloat("MoveSpeed", inputDirection.magnitude);
 
         // 调试输出状态变化
         if (enableDebug && wasMoving != isMoving)
         {
             Debug.Log($"移动状态变化: {wasMoving} -> {isMoving}");
-            Debug.Log($"输入大小: {inputDirection.magnitude:F2}, 速度大小: {rb.velocity.magnitude:F2}");
+            Debug.Log($"输入大小: {currentInput.magnitude:F2}");
         }
     }
 
@@ -119,9 +179,9 @@ public class PlayerController : MonoBehaviour
     {
         if (rb == null) return;
 
-        moveDirection = new Vector3(inputDirection.x, 0, inputDirection.y).normalized;
+        moveDirection = new Vector3(currentInput.x, 0, currentInput.y).normalized;
 
-        if (inputDirection.magnitude >= 0.1f)
+        if (currentInput.magnitude >= 0.1f)
         {
             Vector3 moveVelocity = moveDirection * moveSpeed;
             rb.velocity = new Vector3(moveVelocity.x, rb.velocity.y, moveVelocity.z);
@@ -148,9 +208,22 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    // 手机控制调用这个方法
+    public void SetMobileInput(Vector2 direction)
+    {
+        mobileInput = direction;
+    }
+
+    // 手机交互调用这个方法
+    public void SetMobileInteract(bool interact)
+    {
+        mobileInteract = interact;
+    }
+
+    // 保持向后兼容
     public void SetMoveInput(Vector2 direction)
     {
-        inputDirection = direction;
+        SetMobileInput(direction);
     }
 
     public void Interact()
@@ -162,5 +235,11 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetTrigger("Interact");
         }
+    }
+
+    // 获取当前输入状态（用于调试）
+    public string GetInputStatus()
+    {
+        return $"键盘: {keyboardInput}, 手机: {mobileInput}, 最终: {finalInput}";
     }
 }

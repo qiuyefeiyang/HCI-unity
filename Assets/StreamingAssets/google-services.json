@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "883247044351",
+    "project_id": "hci-unity",
+    "storage_bucket": "hci-unity.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883247044351:web:1f4b784c7768211170deca",
+        "android_client_info": {
+          "package_name": "com.example.unityapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "883247044351-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABdft-zxgKaFq-w1rfQXOFdTNUE04NfRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "883247044351-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
